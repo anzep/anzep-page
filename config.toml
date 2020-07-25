@@ -1,0 +1,8 @@
+baseurl = "/"
+canonifyurls = true
+
+[params]
+title = "anzep"
+
+[permalinks]
+post = "/:year/:month/:day/:slug/"
