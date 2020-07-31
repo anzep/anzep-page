@@ -1,16 +1,51 @@
 @import "./syntax.scss";
 
 body {
-  background: red;
+  display: flex;
+  flex-direction: column;
+  background: #fff1e1;
+  margin: 0;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding-top: 80px;
 }
 
 .header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   height: 80px;
-  background: blue;
+  background: #d2601a;
+  box-shadow: 0px 18px 40px -20px rgba(0, 0, 0, 0.5);
   a {
-    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #1d3c45;
+    text-decoration: none;
   }
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  max-width: 960px;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  margin-left: 24px;
+  margin-right: 24px;
+  padding: 24px;
+
+  width: 100%;
 }

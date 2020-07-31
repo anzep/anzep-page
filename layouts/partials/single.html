@@ -1,5 +1,9 @@
-<article>
-  <h1>{{ .Title }}</h1>
-  <p>{{ .Date.Format "Monday, January 1, 2020" }}</p>
-  {{ .Content }}
-</article>
+<div class="main">
+  <div class="section">
+    <article>
+      <h1>{{ .Title }}</h1>
+      <p>{{ .Date.Format "Monday, January 1, 2020" }}</p>
+      {{ .Content }}
+    </article>
+  </div>
+</div>
