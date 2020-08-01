@@ -11,6 +11,7 @@ body {
   padding-top: 80px;
   position: relative;
   background-size: cover;
+  background-position: center;
   overflow-y: hidden;
   background-image: linear-gradient(
       rgba(220, 220, 220, 0.6),
@@ -28,7 +29,7 @@ body {
   justify-content: space-evenly;
   align-items: center;
   height: 80px;
-  opacity: 0.6;
+  opacity: 0.4;
   box-shadow: 0px 18px 40px -20px rgba(0, 0, 0, 0.5);
   a {
     font-size: 20px;
@@ -68,9 +69,10 @@ p {
 }
 
 .home-card {
-  padding: 80px;
+  padding: 64px;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .divider {
