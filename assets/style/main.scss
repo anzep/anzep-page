@@ -85,9 +85,13 @@ p {
 
 .social-button {
   cursor: pointer;
-  color: grey;
+  color: rgba(0, 0, 0, 0.2);
+  svg {
+    transition: all 500ms linear;
+  }
   :hover {
-    color: black;
+    transition: all 500ms linear;
+    color: rgba(0, 0, 0, 1);
   }
 }
 
