@@ -1,8 +1,8 @@
-<div class="main">
+<div class="main-blog">
   <div class="section">
-    <article>
-      <h1>{{ .Title }}</h1>
-      <p>{{ .Date.Format "Monday, January 1, 2020" }}</p>
+    <article class="article-container">
+      <h1 class="single-title">{{ .Title }}</h1>
+      <!-- <p>{{ .Date.Format "Monday, January 1, 202" }}</p> -->
       {{ .Content }}
     </article>
   </div>
