@@ -58,6 +58,15 @@
     "
     >anze.pureber@gmail.com</a
   > -->
+  <h2>Blog posts:</h2>
+  <ul>
+    {{ range where .Site.RegularPages "Type" "post" }}
+    <li>
+      <b>[{{ .Date.Format "January 2, 2006" }}]</b>
+      <a href="{{ .Permalink }}">{{ .Title }}</a>
+    </li>
+    {{ end }}
+  </ul>
 
   <div class="divider" style="margin-top: 80px"></div>
 
