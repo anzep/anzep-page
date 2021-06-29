@@ -1,5 +1,9 @@
 @import "./syntax.scss";
 
+html {
+  overflow-x: hidden;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -17,6 +21,7 @@ body {
       rgba(220, 220, 220, 0.6)
     ),
     url(https://images.pexels.com/photos/167699/pexels-photo-167699.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+  overflow-x: hidden;
 }
 
 .header {
@@ -147,4 +152,12 @@ img {
 table {
   margin-left: auto;
   margin-right: auto;
+}
+
+.highlight {
+  margin: 0 10%;
+}
+
+.chroma {
+  padding: 16px;
 }
